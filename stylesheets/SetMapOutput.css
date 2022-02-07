@@ -1,0 +1,235 @@
+    .button {
+        background-color: #af6808; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .buttonr {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .buttonr span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .buttonr span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .buttonr:hover span {
+        padding-right: 25px;
+    }
+
+    .buttonr:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    .hide{
+        display:none;
+    }
+    .border {
+        margin: 6px;
+    }
+
+    .innerborder{
+        margin-top:10px;
+        border: #cdcdcd medium solid;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .button {
+        background-color: #4b6da3; /* blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #myProgress {
+        width: 100%;
+        background-color: grey;
+    }
+    #myBar {
+        width: 1%;
+        height: 30px;
+        background-color: #4CAF50;
+        text-align: center; /* To center it horizontally (if you want) */
+        line-height: 30px; /* To center it vertically */
+        color: white;
+    }
+
+    #publicProgress {
+        width: 100%;
+        background-color: grey;
+    }
+    #publicBar {
+        width: 1%;
+        height: 30px;
+        background-color: #2f849c;
+        text-align: center; /* To center it horizontally (if you want) */
+        line-height: 30px; /* To center it vertically */
+        color: white;
+    }
+
+    #bikeProgress {
+        width: 100%;
+        background-color: grey;
+    }
+    #bikeBar {
+        width: 1%;
+        height: 30px;
+        background-color: #ab3c3c;
+        text-align: center; /* To center it horizontally (if you want) */
+        line-height: 30px; /* To center it vertically */
+        color: white;
+    }
+
+    #walkingProgress {
+        width: 100%;
+        background-color: grey;
+    }
+    #walkingBar {
+        width: 1%;
+        height: 30px;
+        background-color: #d6bb4b;
+        text-align: center; /* To center it horizontally (if you want) */
+        line-height: 30px; /* To center it vertically */
+        color: white;
+    }
+    table.paleBlueRows {
+        font-family: Verdana, Geneva, sans-serif;
+        border: 2px solid #063F5E;
+        width: 350%;
+        height: 200%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    table.paleBlueRows td, table.paleBlueRows th {
+        border: 1px solid #FFFFFF;
+        padding: 3px 2px;
+    }
+    table.paleBlueRows tbody td {
+        font-size: 15px;
+    }
+    table.paleBlueRows tr:nth-child(even) {
+        background: #E1EFFF;
+    }
+    table.paleBlueRows thead {
+        background: #4B6DA3;
+        border-bottom: 5px solid #FFFFFF;
+    }
+    table.paleBlueRows thead th {
+        font-size: 20px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-align: center;
+        border-left: 2px solid #364E74;
+    }
+    table.paleBlueRows thead th:first-child {
+        border-left: none;
+    }
+
+    table.paleBlueRows tfoot {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333333;
+        background: #D0E4F5;
+        border-top: 3px solid #444444;
+    }
+    table.paleBlueRows tfoot td {
+        font-size: 15px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #38527a;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;    }
+
+    li a:hover {
+        background-color: #253650;
+        color: white;
+        text-decoration: none;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        border-style: solid;
+        border-width: 5px 0px 0px 0px;
+        border-color:#38527a;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    .homebutton {
+        background-color: #38527a;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        height: 150px;
+        width: 450px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 32px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border: 2px solid #fff;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .homebutton:hover {
+        background-color: white;
+        color: #38527a;
+        border: 2px solid #38527a;
+    }

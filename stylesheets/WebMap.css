@@ -1,0 +1,176 @@
+        body{
+            height:100%;
+            width: 100%;
+            padding: 0;
+        }
+        html, body, #mapid {
+            height: 100%; width: 100%;
+        }
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        .info h4 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+        .legend {
+            line-height: 18px;
+            color: #555;
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+        .piechartpanel{
+            border-style: solid;
+            border-left-style: none;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            border-left-width: 15px;
+            margin-left: 15px;
+            margin-right: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 5%;
+            height: 700px;
+            box-shadow: 1px 3px 5px #888888;
+        }
+        .mappanel{
+            border-style: solid;
+            border-left-style: none;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            border-left-width: 15px;
+            margin-left: 5px;
+            margin-right: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 1%;
+            height: 700px;
+            box-shadow: 1px 3px 5px #888888;
+        }
+        .privatepanel {
+            border-style: solid;
+            border-left-style: solid;
+            border-left-color: #3799cf;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            border-left-width: 15px;
+            margin-left: 15px;
+            margin-right: 5px;
+            padding: 5%;
+            box-shadow: 2px 5px 9px #888888;
+        }
+        .publicpanel {
+            border-style: solid;
+            border-left-style: solid;
+            border-left-color: #00a250;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            border-left-width: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5%;
+            box-shadow: 2px 5px 9px #888888;
+        }
+        .cyclingpanel {
+            border-style: solid;
+            border-left-style: solid;
+            border-left-color: #ba3c27;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            border-left-width: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5%;
+            box-shadow: 2px 5px 9px #888888;
+        }
+        .walkingpanel {
+            border-style: solid;
+            border-left-style: solid;
+            border-left-color: #e6e80d;
+            border-bottom-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            margin-right: 15px;
+            margin-left: 5px;
+            padding: 5%;
+            box-shadow: 2px 5px 9px #888888;
+        }
+        p {
+            line-height: 1em ;
+            margin-top: 0 ;
+            margin-bottom: 0 ;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #38527a;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;    }
+
+        li a:hover {
+            background-color: #253650;
+            color: white;
+            text-decoration: none;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            border-style: solid;
+            border-width: 5px 0px 0px 0px;
+            border-color:#38527a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .homebutton {
+            background-color: #38527a;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            height: 150px;
+            width: 450px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            border: 2px solid #fff;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .homebutton:hover {
+            background-color: white;
+            color: #38527a;
+            border: 2px solid #38527a;
+        }
